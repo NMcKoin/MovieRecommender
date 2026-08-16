@@ -186,7 +186,7 @@
   {"title": "The Shape of Water", "type": "movie", "genre": ["fantasy","drama"], "tone": ["serious","emotional"], "pacing": "slow", "keywords": ["creature","romance"], "length": 123},
 
   {"title": "Big Fish", "type": "movie", "genre": ["fantasy","drama"], "tone": ["lighthearted"], "pacing": "slow", "keywords": ["storytelling","whimsy"], "length": 125},
-  
+
    {"title": "Kingdom Hearts", "type": "game", "genre": ["fantasy","action"], "tone": ["lighthearted"], "pacing": "fast", "keywords": ["disney","keyblade","jrpg"], "platforms": ["ps2","ps3","ps4","ps5"], "length": 25},
 
   {"title": "Kingdom Hearts II", "type": "game", "genre": ["fantasy","action"], "tone": ["lighthearted","emotional"], "pacing": "fast", "keywords": ["disney","keyblade","jrpg"], "platforms": ["ps2","ps3","ps4","ps5"], "length": 30},
@@ -209,11 +209,11 @@
 
   {"title": "Call of Duty: Modern Warfare (2019)", "type": "game", "genre": ["fps","action"], "tone": ["serious"], "pacing": "fast", "keywords": ["military","campaign"], "platforms": ["pc","ps4","ps5","xbox"], "length": 10},
 
-  {"title": "Dead Space", "type": "game", "genre": ["horror","sci-fi"], "tone": ["dark","intense"], "pacing": "slow", "keywords": ["space","survival","necromorphs"], "platforms": ["pc","ps3","xbox"], "length": 12},
+  {"title": "Dead Space", "type": "game", "genre": ["horror","sci-fi"], "tone": ["dark","intense"], "pacing": "slow", "keywords": ["space","survival","necromorphs", "Zombies"], "platforms": ["pc","ps3","xbox"], "length": 12},
 
-  {"title": "Dead Space 2", "type": "game", "genre": ["horror","sci-fi"], "tone": ["dark","intense"], "pacing": "fast", "keywords": ["space","survival","necromorphs"], "platforms": ["pc","ps3","xbox"], "length": 10},
+  {"title": "Dead Space 2", "type": "game", "genre": ["horror","sci-fi"], "tone": ["dark","intense"], "pacing": "fast", "keywords": ["space","Zombies","survival","necromorphs"], "platforms": ["pc","ps3","xbox"], "length": 10},
 
-  {"title": "Dead Space 3", "type": "game", "genre": ["horror","action"], "tone": ["dark"], "pacing": "fast", "keywords": ["space","co-op"], "platforms": ["pc","ps3","xbox"], "length": 12},
+  {"title": "Dead Space 3", "type": "game", "genre": ["horror","action"], "tone": ["dark"], "pacing": "fast", "keywords": ["space","co-op", "Zombies", "necromorphs"], "platforms": ["pc","ps3","xbox"], "length": 12},
 
   {"title": "Resident Evil 2 Remake", "type": "game", "genre": ["horror","action"], "tone": ["dark"], "pacing": "slow", "keywords": ["zombies","survival"], "platforms": ["pc","ps4","ps5","xbox"], "length": 10},
 

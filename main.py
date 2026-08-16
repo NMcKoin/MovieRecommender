@@ -17,14 +17,34 @@ ITEMS = load_database()
 # ---------------------------------------------------------
 # 2. Keyword Extraction
 # ---------------------------------------------------------
+def build_keyword_map(items):
+    genres = set()
+    tones = set()
+    pacing = set()
+    content = set()
 
-KEYWORD_MAP = {
-    "genres": ["action", "adventure", "horror", "comedy", "drama", "sci-fi",
-               "fantasy", "thriller", "rpg", "fps", "strategy", "sandbox"],
-    "tones": ["dark", "lighthearted", "serious", "goofy", "emotional", "gritty"],
-    "pacing": ["fast", "slow", "story-heavy", "dialogue-heavy"],
-    "content": ["magic", "space", "zombies", "romance", "cyberpunk", "medieval"],
-}
+    for item in items:
+        for g in item.get("genre", []):
+            genres.add(g.lower())
+
+        for t in item.get("tone", []):
+            tones.add(t.lower())
+
+        p = item.get("pacing")
+        if p:
+            pacing.add(p.lower())
+
+        for k in item.get("keywords", []):
+            content.add(k.lower())
+
+    return {
+        "genres": sorted(genres),
+        "tones": sorted(tones),
+        "pacing": sorted(pacing),
+        "content": sorted(content)
+    }
+
+KEYWORD_MAP = build_keyword_map(ITEMS)
 
 def extract_preferences(text: str) -> Dict[str, Any]:
     text = text.lower()
@@ -91,13 +111,12 @@ def recommend(text: str) -> List[Dict[str, Any]]:
 # 5. Example Usage
 # ---------------------------------------------------------
 
-if __name__ == "__main__":
-    user_input = "I want a dark fantasy game, story-heavy but not slow."
-    recs = recommend(user_input)
-
-    print("\nRecommendations:\n")
-    for r in recs:
-        print(f"{r['item']['title']}  (Score: {r['score']})")
+#   user_input = "I want a dark fantasy game, story-heavy but not slow."
+ #   recs = recommend(user_input)
+#
+#    print("\nRecommendations:\n")
+#    for r in recs:
+#        print(f"{r['item']['title']}  (Score: {r['score']})")
 
 # ---------------------------------------------------------
 # 6. Console UI
@@ -112,38 +131,46 @@ if __name__ == "__main__":
 def run_gui():
     root = tk.Tk()
     root.title("Movie/Game Recommender")
-    root.geometry("700x700")
+    root.geometry("700x650")
     root.resizable(False, False)
 
-    ttk.Label(root, text="Rule-Based Recommender", font=("Arial", 20)).pack(pady=10)
+    # Title
+    ttk.Label(root, text="Rule-Based Recommender", font=("Arial", 22)).pack(pady=15)
 
-    # Show available options
-    options_frame = ttk.Frame(root)
-    options_frame.pack(pady=10)
+    # Main question
+    ttk.Label(root, text="What are you in the mood for?", font=("Arial", 16)).pack(pady=10)
 
-    def make_label(title, items):
-        text = f"{title}: " + ", ".join(items)
-        ttk.Label(options_frame, text=text, wraplength=650, justify="left").pack(anchor="w", pady=5)
+    # Example inputs
+    example_frame = ttk.Frame(root)
+    example_frame.pack(pady=5)
 
-    make_label("Genres", KEYWORD_MAP["genres"])
-    make_label("Tones", KEYWORD_MAP["tones"])
-    make_label("Pacing", KEYWORD_MAP["pacing"])
-    make_label("Content Keywords", KEYWORD_MAP["content"])
+    ttk.Label(
+        example_frame,
+        text="Example (Game): \"I want a lighthearted Disney game with keyblades\"",
+        font=("Arial", 11),
+        foreground="#555"
+    ).pack(anchor="w", pady=2)
+
+    ttk.Label(
+        example_frame,
+        text="Example (Movie): \"I'm in the mood for a dark sci-fi space thriller\"",
+        font=("Arial", 11),
+        foreground="#555"
+    ).pack(anchor="w", pady=2)
 
     # Input box
-    ttk.Label(root, text="Describe what you want:", font=("Arial", 14)).pack(pady=10)
-
-    input_box = tk.Text(root, height=4, width=80)
-    input_box.pack()
+    input_box = tk.Text(root, height=4, width=80, font=("Arial", 12))
+    input_box.pack(pady=15)
 
     # Results box
-    results_box = tk.Text(root, height=20, width=80)
+    results_box = tk.Text(root, height=20, width=80, font=("Arial", 12))
     results_box.pack(pady=10)
 
-    # Recommend button (bigger)
+    # Button style
     style = ttk.Style()
     style.configure("Large.TButton", font=("Arial", 16))
 
+    # Recommend button
     def on_recommend():
         user_text = input_box.get("1.0", tk.END).strip()
         recs = recommend(user_text)

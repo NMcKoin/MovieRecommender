@@ -96,16 +96,30 @@ def score_item(item: Dict[str, Any], prefs: Dict[str, Any]) -> int:
 # ---------------------------------------------------------
 
 def recommend(text: str) -> List[Dict[str, Any]]:
-    prefs = extract_preferences(text)
-    results = []
+    prefs = extract_preferences(text.lower())
 
+    # Detect user intent
+    want_game = "game" in text.lower() or "play" in text.lower()
+    want_movie = "movie" in text.lower() or "watch" in text.lower()
+
+    # Filter items based on intent
+    filtered_items = []
     for item in ITEMS:
+        if want_game and item["type"] != "game":
+            continue
+        if want_movie and item["type"] != "movie":
+            continue
+        filtered_items.append(item)
+
+    # Score filtered items
+    results = []
+    for item in filtered_items:
         s = score_item(item, prefs)
         results.append({"item": item, "score": s})
 
-    # Sort by score descending
+    # Sort and limit to 10
     results.sort(key=lambda x: x["score"], reverse=True)
-    return results
+    return results[:10]
 
 # ---------------------------------------------------------
 # 5. Example Usage

@@ -1,0 +1,243 @@
+[
+  {"title": "The Witcher 3", "type": "game", "genre": ["fantasy","rpg"], "tone": ["dark"], "pacing": "story-heavy", "keywords": ["magic","medieval"], "platforms": ["pc","ps5","xbox"], "length": 60},
+
+  {"title": "Interstellar", "type": "movie", "genre": ["sci-fi","drama"], "tone": ["serious","emotional"], "pacing": "slow", "keywords": ["space"], "length": 169},
+
+  {"title": "DOOM Eternal", "type": "game", "genre": ["fps","sci-fi"], "tone": ["intense"], "pacing": "fast", "keywords": ["demons","action"], "platforms": ["pc","ps5","xbox"], "length": 20},
+
+  {"title": "God of War (2018)", "type": "game", "genre": ["action","fantasy"], "tone": ["serious","emotional"], "pacing": "story-heavy", "keywords": ["mythology","combat"], "platforms": ["ps5","ps4"], "length": 35},
+
+  {"title": "Elden Ring", "type": "game", "genre": ["fantasy","rpg"], "tone": ["dark"], "pacing": "fast", "keywords": ["open-world","magic","medieval"], "platforms": ["pc","ps5","xbox"], "length": 80},
+
+  {"title": "Cyberpunk 2077", "type": "game", "genre": ["rpg","sci-fi"], "tone": ["gritty"], "pacing": "story-heavy", "keywords": ["cyberpunk","open-world"], "platforms": ["pc","ps5","xbox"], "length": 40},
+
+  {"title": "Red Dead Redemption 2", "type": "game", "genre": ["action","drama"], "tone": ["serious"], "pacing": "slow", "keywords": ["western","open-world"], "platforms": ["pc","ps5","xbox"], "length": 60},
+
+  {"title": "Skyrim", "type": "game", "genre": ["fantasy","rpg"], "tone": ["lighthearted","serious"], "pacing": "slow", "keywords": ["dragons","magic","open-world"], "platforms": ["pc","ps5","xbox","switch"], "length": 100},
+
+  {"title": "Mass Effect 2", "type": "game", "genre": ["rpg","sci-fi"], "tone": ["serious"], "pacing": "story-heavy", "keywords": ["space","squad"], "platforms": ["pc","ps5","xbox"], "length": 30},
+
+  {"title": "Halo Infinite", "type": "game", "genre": ["fps","sci-fi"], "tone": ["intense"], "pacing": "fast", "keywords": ["space","combat"], "platforms": ["pc","xbox"], "length": 20},
+
+  {"title": "Portal 2", "type": "game", "genre": ["puzzle","sci-fi"], "tone": ["goofy"], "pacing": "fast", "keywords": ["science","humor"], "platforms": ["pc","ps3","xbox"], "length": 10},
+
+  {"title": "Minecraft", "type": "game", "genre": ["sandbox","adventure"], "tone": ["lighthearted"], "pacing": "slow", "keywords": ["building","survival"], "platforms": ["pc","ps5","xbox","switch"], "length": 999},
+
+  {"title": "Hades", "type": "game", "genre": ["action","roguelike"], "tone": ["intense"], "pacing": "fast", "keywords": ["mythology","combat"], "platforms": ["pc","switch","ps5","xbox"], "length": 25},
+
+  {"title": "Dark Souls", "type": "game", "genre": ["fantasy","rpg"], "tone": ["dark"], "pacing": "slow", "keywords": ["challenge","medieval"], "platforms": ["pc","ps5","xbox"], "length": 50},
+
+  {"title": "Bloodborne", "type": "game", "genre": ["horror","fantasy"], "tone": ["dark"], "pacing": "fast", "keywords": ["gothic","challenge"], "platforms": ["ps5","ps4"], "length": 40},
+
+  {"title": "Horizon Zero Dawn", "type": "game", "genre": ["action","sci-fi"], "tone": ["serious"], "pacing": "story-heavy", "keywords": ["robots","open-world"], "platforms": ["pc","ps5","ps4"], "length": 35},
+
+  {"title": "The Last of Us", "type": "game", "genre": ["drama","horror"], "tone": ["serious","emotional"], "pacing": "story-heavy", "keywords": ["zombies","survival"], "platforms": ["ps5","ps4"], "length": 20},
+
+  {"title": "Ghost of Tsushima", "type": "game", "genre": ["action","drama"], "tone": ["serious"], "pacing": "fast", "keywords": ["samurai","open-world"], "platforms": ["ps5","ps4"], "length": 30},
+
+  {"title": "Assassin's Creed Odyssey", "type": "game", "genre": ["action","rpg"], "tone": ["serious"], "pacing": "slow", "keywords": ["greek","open-world"], "platforms": ["pc","ps5","xbox"], "length": 70},
+
+  {"title": "Starfield", "type": "game", "genre": ["rpg","sci-fi"], "tone": ["serious"], "pacing": "slow", "keywords": ["space","open-world"], "platforms": ["pc","xbox"], "length": 100},
+
+  {"title": "Baldur's Gate 3", "type": "game", "genre": ["fantasy","rpg"], "tone": ["serious"], "pacing": "story-heavy", "keywords": ["magic","party"], "platforms": ["pc","ps5"], "length": 100},
+
+  {"title": "Diablo 4", "type": "game", "genre": ["action","fantasy"], "tone": ["dark"], "pacing": "fast", "keywords": ["demons","loot"], "platforms": ["pc","ps5","xbox"], "length": 50},
+
+  {"title": "Overwatch 2", "type": "game", "genre": ["fps","action"], "tone": ["lighthearted"], "pacing": "fast", "keywords": ["multiplayer","heroes"], "platforms": ["pc","ps5","xbox","switch"], "length": 999},
+
+  {"title": "Fortnite", "type": "game", "genre": ["fps","sandbox"], "tone": ["goofy"], "pacing": "fast", "keywords": ["battle-royale","building"], "platforms": ["pc","ps5","xbox","switch"], "length": 999},
+
+  {"title": "League of Legends", "type": "game", "genre": ["strategy","fantasy"], "tone": ["intense"], "pacing": "fast", "keywords": ["multiplayer","competitive"], "platforms": ["pc"], "length": 999},
+
+  {"title": "Dota 2", "type": "game", "genre": ["strategy","fantasy"], "tone": ["intense"], "pacing": "fast", "keywords": ["multiplayer","competitive"], "platforms": ["pc"], "length": 999},
+
+  {"title": "Counter-Strike 2", "type": "game", "genre": ["fps"], "tone": ["intense"], "pacing": "fast", "keywords": ["competitive","tactical"], "platforms": ["pc"], "length": 999},
+
+  {"title": "Apex Legends", "type": "game", "genre": ["fps","sci-fi"], "tone": ["intense"], "pacing": "fast", "keywords": ["battle-royale","heroes"], "platforms": ["pc","ps5","xbox","switch"], "length": 999},
+
+  {"title": "Destiny 2", "type": "game", "genre": ["fps","sci-fi"], "tone": ["serious"], "pacing": "fast", "keywords": ["space","loot"], "platforms": ["pc","ps5","xbox"], "length": 999},
+
+  {"title": "GTA V", "type": "game", "genre": ["action","sandbox"], "tone": ["goofy","serious"], "pacing": "fast", "keywords": ["crime","open-world"], "platforms": ["pc","ps5","xbox"], "length": 40},
+
+  {"title": "GTA IV", "type": "game", "genre": ["action","drama"], "tone": ["serious"], "pacing": "slow", "keywords": ["crime","open-world"], "platforms": ["pc","ps3","xbox"], "length": 30},
+
+  {"title": "GTA San Andreas", "type": "game", "genre": ["action","sandbox"], "tone": ["goofy"], "pacing": "fast", "keywords": ["crime","open-world"], "platforms": ["pc","ps2","xbox"], "length": 30},
+
+  {"title": "Batman Arkham Knight", "type": "game", "genre": ["action","superhero"], "tone": ["dark"], "pacing": "fast", "keywords": ["combat","detective"], "platforms": ["pc","ps5","xbox"], "length": 25},
+
+  {"title": "Spider-Man PS4", "type": "game", "genre": ["action","superhero"], "tone": ["lighthearted"], "pacing": "fast", "keywords": ["open-world","combat"], "platforms": ["ps5","ps4"], "length": 20},
+
+  {"title": "Spider-Man Miles Morales", "type": "game", "genre": ["action","superhero"], "tone": ["lighthearted"], "pacing": "fast", "keywords": ["open-world","combat"], "platforms": ["ps5","ps4"], "length": 12},
+
+  {"title": "Star Wars Jedi: Fallen Order", "type": "game", "genre": ["action","sci-fi"], "tone": ["serious"], "pacing": "fast", "keywords": ["lightsabers","force"], "platforms": ["pc","ps5","xbox"], "length": 20},
+
+  {"title": "Star Wars Jedi: Survivor", "type": "game", "genre": ["action","sci-fi"], "tone": ["serious"], "pacing": "fast", "keywords": ["lightsabers","force"], "platforms": ["pc","ps5","xbox"], "length": 30},
+
+  {"title": "Fallout 4", "type": "game", "genre": ["rpg","sci-fi"], "tone": ["serious"], "pacing": "slow", "keywords": ["post-apocalyptic","open-world"], "platforms": ["pc","ps5","xbox"], "length": 50},
+
+  {"title": "Fallout New Vegas", "type": "game", "genre": ["rpg","sci-fi"], "tone": ["serious"], "pacing": "slow", "keywords": ["post-apocalyptic","open-world"], "platforms": ["pc","ps3","xbox"], "length": 40},
+
+  {"title": "The Matrix", "type": "movie", "genre": ["sci-fi","action"], "tone": ["serious"], "pacing": "fast", "keywords": ["cyberpunk","kung-fu"], "length": 136},
+
+  {"title": "Inception", "type": "movie", "genre": ["sci-fi","thriller"], "tone": ["serious"], "pacing": "fast", "keywords": ["dreams","heist"], "length": 148},
+
+  {"title": "The Dark Knight", "type": "movie", "genre": ["action","drama"], "tone": ["dark"], "pacing": "fast", "keywords": ["batman","crime"], "length": 152},
+
+  {"title": "The Dark Knight Rises", "type": "movie", "genre": ["action","drama"], "tone": ["dark"], "pacing": "slow", "keywords": ["batman","crime"], "length": 165},
+
+  {"title": "Batman Begins", "type": "movie", "genre": ["action","drama"], "tone": ["dark"], "pacing": "slow", "keywords": ["batman","origin"], "length": 140},
+
+  {"title": "Avengers: Endgame", "type": "movie", "genre": ["action","superhero"], "tone": ["serious","emotional"], "pacing": "fast", "keywords": ["marvel","time-travel"], "length": 181},
+
+  {"title": "Avengers: Infinity War", "type": "movie", "genre": ["action","superhero"], "tone": ["serious"], "pacing": "fast", "keywords": ["marvel","thanos"], "length": 149},
+
+  {"title": "Iron Man", "type": "movie", "genre": ["action","superhero"], "tone": ["lighthearted"], "pacing": "fast", "keywords": ["marvel","tech"], "length": 126},
+
+  {"title": "Guardians of the Galaxy", "type": "movie", "genre": ["action","comedy"], "tone": ["goofy"], "pacing": "fast", "keywords": ["space","marvel"], "length": 121},
+
+  {"title": "Guardians of the Galaxy Vol. 2", "type": "movie", "genre": ["action","comedy"], "tone": ["goofy"], "pacing": "fast", "keywords": ["space","marvel"], "length": 136},
+
+  {"title": "Deadpool", "type": "movie", "genre": ["action","comedy"], "tone": ["goofy"], "pacing": "fast", "keywords": ["superhero","humor"], "length": 108},
+
+  {"title": "Deadpool 2", "type": "movie", "genre": ["action","comedy"], "tone": ["goofy"], "pacing": "fast", "keywords": ["superhero","humor"], "length": 119},
+
+  {"title": "Logan", "type": "movie", "genre": ["action","drama"], "tone": ["dark","emotional"], "pacing": "slow", "keywords": ["superhero","x-men"], "length": 137},
+
+  {"title": "Mad Max: Fury Road", "type": "movie", "genre": ["action","sci-fi"], "tone": ["intense"], "pacing": "fast", "keywords": ["post-apocalyptic","cars"], "length": 120},
+
+  {"title": "Blade Runner 2049", "type": "movie", "genre": ["sci-fi","drama"], "tone": ["serious"], "pacing": "slow", "keywords": ["cyberpunk","androids"], "length": 164},
+
+  {"title": "Alien", "type": "movie", "genre": ["horror","sci-fi"], "tone": ["dark"], "pacing": "slow", "keywords": ["space","xenomorph"], "length": 117},
+
+  {"title": "Aliens", "type": "movie", "genre": ["action","sci-fi"], "tone": ["intense"], "pacing": "fast", "keywords": ["space","xenomorph"], "length": 137},
+
+  {"title": "Predator", "type": "movie", "genre": ["action","sci-fi"], "tone": ["intense"], "pacing": "fast", "keywords": ["jungle","alien"], "length": 107},
+
+  {"title": "Terminator 2", "type": "movie", "genre": ["action","sci-fi"], "tone": ["serious"], "pacing": "fast", "keywords": ["robots","future"], "length": 137},
+
+  {"title": "Terminator", "type": "movie", "genre": ["action","sci-fi"], "tone": ["dark"], "pacing": "slow", "keywords": ["robots","future"], "length": 107},
+
+  {"title": "John Wick", "type": "movie", "genre": ["action","thriller"], "tone": ["serious"], "pacing": "fast", "keywords": ["assassin","revenge"], "length": 101},
+
+  {"title": "John Wick 2", "type": "movie", "genre": ["action","thriller"], "tone": ["serious"], "pacing": "fast", "keywords": ["assassin","revenge"], "length": 122},
+
+  {"title": "John Wick 3", "type": "movie", "genre": ["action","thriller"], "tone": ["serious"], "pacing": "fast", "keywords": ["assassin","revenge"], "length": 131},
+
+    {"title": "The Lord of the Rings: The Fellowship of the Ring", "type": "movie", "genre": ["fantasy","adventure"], "tone": ["serious"], "pacing": "slow", "keywords": ["middle-earth","quest"], "length": 178},
+
+  {"title": "The Lord of the Rings: The Two Towers", "type": "movie", "genre": ["fantasy","adventure"], "tone": ["serious"], "pacing": "fast", "keywords": ["middle-earth","battle"], "length": 179},
+
+  {"title": "The Lord of the Rings: The Return of the King", "type": "movie", "genre": ["fantasy","adventure"], "tone": ["serious","emotional"], "pacing": "fast", "keywords": ["middle-earth","battle"], "length": 201},
+
+  {"title": "The Hobbit: An Unexpected Journey", "type": "movie", "genre": ["fantasy","adventure"], "tone": ["lighthearted"], "pacing": "slow", "keywords": ["middle-earth","dwarves"], "length": 169},
+
+  {"title": "The Hobbit: The Desolation of Smaug", "type": "movie", "genre": ["fantasy","adventure"], "tone": ["serious"], "pacing": "fast", "keywords": ["middle-earth","dragon"], "length": 161},
+
+  {"title": "The Hobbit: The Battle of the Five Armies", "type": "movie", "genre": ["fantasy","adventure"], "tone": ["serious"], "pacing": "fast", "keywords": ["middle-earth","battle"], "length": 144},
+
+  {"title": "Harry Potter and the Sorcerer's Stone", "type": "movie", "genre": ["fantasy","adventure"], "tone": ["lighthearted"], "pacing": "slow", "keywords": ["magic","school"], "length": 152},
+
+  {"title": "Harry Potter and the Chamber of Secrets", "type": "movie", "genre": ["fantasy","adventure"], "tone": ["lighthearted"], "pacing": "slow", "keywords": ["magic","school"], "length": 161},
+
+  {"title": "Harry Potter and the Prisoner of Azkaban", "type": "movie", "genre": ["fantasy","drama"], "tone": ["dark"], "pacing": "fast", "keywords": ["magic","time"], "length": 142},
+
+  {"title": "Harry Potter and the Goblet of Fire", "type": "movie", "genre": ["fantasy","drama"], "tone": ["serious"], "pacing": "fast", "keywords": ["magic","tournament"], "length": 157},
+
+  {"title": "Harry Potter and the Order of the Phoenix", "type": "movie", "genre": ["fantasy","drama"], "tone": ["serious"], "pacing": "slow", "keywords": ["magic","rebellion"], "length": 138},
+
+  {"title": "Harry Potter and the Half-Blood Prince", "type": "movie", "genre": ["fantasy","drama"], "tone": ["dark"], "pacing": "slow", "keywords": ["magic","mystery"], "length": 153},
+
+  {"title": "Harry Potter and the Deathly Hallows Part 1", "type": "movie", "genre": ["fantasy","drama"], "tone": ["dark"], "pacing": "slow", "keywords": ["magic","journey"], "length": 146},
+
+  {"title": "Harry Potter and the Deathly Hallows Part 2", "type": "movie", "genre": ["fantasy","drama"], "tone": ["dark","emotional"], "pacing": "fast", "keywords": ["magic","battle"], "length": 130},
+
+  {"title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe", "type": "movie", "genre": ["fantasy","adventure"], "tone": ["lighthearted"], "pacing": "slow", "keywords": ["magic","narnia"], "length": 143},
+
+  {"title": "The Chronicles of Narnia: Prince Caspian", "type": "movie", "genre": ["fantasy","adventure"], "tone": ["serious"], "pacing": "fast", "keywords": ["magic","narnia"], "length": 150},
+
+  {"title": "The Chronicles of Narnia: The Voyage of the Dawn Treader", "type": "movie", "genre": ["fantasy","adventure"], "tone": ["lighthearted"], "pacing": "slow", "keywords": ["magic","narnia"], "length": 113},
+
+  {"title": "Pan's Labyrinth", "type": "movie", "genre": ["fantasy","drama"], "tone": ["dark"], "pacing": "slow", "keywords": ["fairy-tale","war"], "length": 118},
+
+  {"title": "Willow", "type": "movie", "genre": ["fantasy","adventure"], "tone": ["lighthearted"], "pacing": "slow", "keywords": ["magic","quest"], "length": 126},
+
+  {"title": "Stardust", "type": "movie", "genre": ["fantasy","romance"], "tone": ["lighthearted"], "pacing": "fast", "keywords": ["magic","adventure"], "length": 127},
+
+  {"title": "The Princess Bride", "type": "movie", "genre": ["fantasy","comedy"], "tone": ["goofy"], "pacing": "fast", "keywords": ["adventure","romance"], "length": 98},
+
+  {"title": "Conan the Barbarian", "type": "movie", "genre": ["fantasy","action"], "tone": ["serious"], "pacing": "fast", "keywords": ["sword","battle"], "length": 129},
+
+  {"title": "Clash of the Titans", "type": "movie", "genre": ["fantasy","action"], "tone": ["serious"], "pacing": "fast", "keywords": ["mythology","gods"], "length": 118},
+
+  {"title": "Wrath of the Titans", "type": "movie", "genre": ["fantasy","action"], "tone": ["serious"], "pacing": "fast", "keywords": ["mythology","gods"], "length": 99},
+
+  {"title": "Eragon", "type": "movie", "genre": ["fantasy","adventure"], "tone": ["lighthearted"], "pacing": "fast", "keywords": ["dragons","magic"], "length": 104},
+
+  {"title": "Warcraft", "type": "movie", "genre": ["fantasy","action"], "tone": ["serious"], "pacing": "fast", "keywords": ["orcs","magic"], "length": 123},
+
+  {"title": "Dungeons & Dragons: Honor Among Thieves", "type": "movie", "genre": ["fantasy","comedy"], "tone": ["goofy"], "pacing": "fast", "keywords": ["magic","adventure"], "length": 134},
+
+  {"title": "The Golden Compass", "type": "movie", "genre": ["fantasy","adventure"], "tone": ["serious"], "pacing": "slow", "keywords": ["magic","polar"], "length": 113},
+
+  {"title": "Legend", "type": "movie", "genre": ["fantasy","romance"], "tone": ["serious"], "pacing": "slow", "keywords": ["dark-fantasy","fae"], "length": 94},
+
+  {"title": "The NeverEnding Story", "type": "movie", "genre": ["fantasy","adventure"], "tone": ["lighthearted"], "pacing": "slow", "keywords": ["magic","creatures"], "length": 102},
+
+  {"title": "The Shape of Water", "type": "movie", "genre": ["fantasy","drama"], "tone": ["serious","emotional"], "pacing": "slow", "keywords": ["creature","romance"], "length": 123},
+
+  {"title": "Big Fish", "type": "movie", "genre": ["fantasy","drama"], "tone": ["lighthearted"], "pacing": "slow", "keywords": ["storytelling","whimsy"], "length": 125},
+  
+   {"title": "Kingdom Hearts", "type": "game", "genre": ["fantasy","action"], "tone": ["lighthearted"], "pacing": "fast", "keywords": ["disney","keyblade","jrpg"], "platforms": ["ps2","ps3","ps4","ps5"], "length": 25},
+
+  {"title": "Kingdom Hearts II", "type": "game", "genre": ["fantasy","action"], "tone": ["lighthearted","emotional"], "pacing": "fast", "keywords": ["disney","keyblade","jrpg"], "platforms": ["ps2","ps3","ps4","ps5"], "length": 30},
+
+  {"title": "Kingdom Hearts III", "type": "game", "genre": ["fantasy","action"], "tone": ["lighthearted","emotional"], "pacing": "fast", "keywords": ["disney","keyblade","jrpg"], "platforms": ["ps4","ps5","xbox","pc"], "length": 30},
+
+  {"title": "The Legend of Zelda: Ocarina of Time", "type": "game", "genre": ["fantasy","adventure"], "tone": ["serious"], "pacing": "slow", "keywords": ["time-travel","hyrule","dungeon"], "platforms": ["n64","3ds","switch"], "length": 25},
+
+  {"title": "The Legend of Zelda: Breath of the Wild", "type": "game", "genre": ["fantasy","adventure"], "tone": ["serious"], "pacing": "slow", "keywords": ["open-world","hyrule","survival"], "platforms": ["switch","wiiu"], "length": 60},
+
+  {"title": "The Legend of Zelda: Tears of the Kingdom", "type": "game", "genre": ["fantasy","adventure"], "tone": ["serious"], "pacing": "slow", "keywords": ["open-world","building","hyrule"], "platforms": ["switch"], "length": 80},
+
+  {"title": "Call of Duty 4: Modern Warfare", "type": "game", "genre": ["fps","action"], "tone": ["intense"], "pacing": "fast", "keywords": ["military","campaign"], "platforms": ["pc","ps3","xbox"], "length": 8},
+
+  {"title": "Call of Duty: Modern Warfare 2", "type": "game", "genre": ["fps","action"], "tone": ["intense"], "pacing": "fast", "keywords": ["military","campaign"], "platforms": ["pc","ps3","xbox"], "length": 7},
+
+  {"title": "Call of Duty: Black Ops", "type": "game", "genre": ["fps","action"], "tone": ["serious"], "pacing": "fast", "keywords": ["cold-war","campaign"], "platforms": ["pc","ps3","xbox"], "length": 7},
+
+  {"title": "Call of Duty: Black Ops II", "type": "game", "genre": ["fps","action"], "tone": ["serious"], "pacing": "fast", "keywords": ["future","campaign"], "platforms": ["pc","ps3","xbox"], "length": 8},
+
+  {"title": "Call of Duty: Modern Warfare (2019)", "type": "game", "genre": ["fps","action"], "tone": ["serious"], "pacing": "fast", "keywords": ["military","campaign"], "platforms": ["pc","ps4","ps5","xbox"], "length": 10},
+
+  {"title": "Dead Space", "type": "game", "genre": ["horror","sci-fi"], "tone": ["dark","intense"], "pacing": "slow", "keywords": ["space","survival","necromorphs"], "platforms": ["pc","ps3","xbox"], "length": 12},
+
+  {"title": "Dead Space 2", "type": "game", "genre": ["horror","sci-fi"], "tone": ["dark","intense"], "pacing": "fast", "keywords": ["space","survival","necromorphs"], "platforms": ["pc","ps3","xbox"], "length": 10},
+
+  {"title": "Dead Space 3", "type": "game", "genre": ["horror","action"], "tone": ["dark"], "pacing": "fast", "keywords": ["space","co-op"], "platforms": ["pc","ps3","xbox"], "length": 12},
+
+  {"title": "Resident Evil 2 Remake", "type": "game", "genre": ["horror","action"], "tone": ["dark"], "pacing": "slow", "keywords": ["zombies","survival"], "platforms": ["pc","ps4","ps5","xbox"], "length": 10},
+
+  {"title": "Resident Evil 4 Remake", "type": "game", "genre": ["horror","action"], "tone": ["dark"], "pacing": "fast", "keywords": ["zombies","village"], "platforms": ["pc","ps4","ps5","xbox"], "length": 12},
+
+  {"title": "Silent Hill 2", "type": "game", "genre": ["horror","psychological"], "tone": ["dark","emotional"], "pacing": "slow", "keywords": ["fog","monsters"], "platforms": ["ps2","pc"], "length": 10},
+
+  {"title": "Outlast", "type": "game", "genre": ["horror"], "tone": ["dark","intense"], "pacing": "fast", "keywords": ["asylum","survival"], "platforms": ["pc","ps4","xbox","switch"], "length": 6},
+
+  {"title": "Amnesia: The Dark Descent", "type": "game", "genre": ["horror"], "tone": ["dark"], "pacing": "slow", "keywords": ["sanity","monsters"], "platforms": ["pc","ps4","xbox","switch"], "length": 8},
+
+  {"title": "Subnautica", "type": "game", "genre": ["survival","sandbox"], "tone": ["serious"], "pacing": "slow", "keywords": ["ocean","crafting","exploration"], "platforms": ["pc","ps4","ps5","xbox","switch"], "length": 40},
+
+  {"title": "Factorio", "type": "game", "genre": ["strategy","sandbox"], "tone": ["serious"], "pacing": "fast", "keywords": ["automation","factory","crafting"], "platforms": ["pc","switch"], "length": 999},
+
+  {"title": "Cities: Skylines", "type": "game", "genre": ["strategy","simulation"], "tone": ["serious"], "pacing": "slow", "keywords": ["city-building","management"], "platforms": ["pc","ps4","xbox","switch"], "length": 999},
+
+  {"title": "Civilization VI", "type": "game", "genre": ["strategy"], "tone": ["serious"], "pacing": "turn-based", "keywords": ["empire","4x","history"], "platforms": ["pc","ps4","xbox","switch"], "length": 999},
+
+  {"title": "Stellaris", "type": "game", "genre": ["strategy","sci-fi"], "tone": ["serious"], "pacing": "slow", "keywords": ["space","empire","4x"], "platforms": ["pc","ps4","xbox"], "length": 999},
+
+  {"title": "Terraria", "type": "game", "genre": ["sandbox","adventure"], "tone": ["lighthearted"], "pacing": "fast", "keywords": ["crafting","exploration","bosses"], "platforms": ["pc","ps4","ps5","xbox","switch"], "length": 999},
+
+  {"title": "Don't Starve", "type": "game", "genre": ["survival","sandbox"], "tone": ["dark"], "pacing": "fast", "keywords": ["crafting","exploration","monsters"], "platforms": ["pc","ps4","xbox","switch"], "length": 999},
+
+  {"title": "RimWorld", "type": "game", "genre": ["strategy","simulation"], "tone": ["serious"], "pacing": "slow", "keywords": ["colony","story-generator"], "platforms": ["pc","ps4","xbox"], "length": 999}
+]
